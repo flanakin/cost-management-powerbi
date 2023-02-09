@@ -48,10 +48,11 @@ The **Commitment discounts report** summarizes existing and potential savings fr
 
 ## Connect reports to your account
 
-1. Download and open the report in Power BI
-2. Select **Transform data** in the toolbar
-3. Select **Queries** > **BillingProfileOrEnrollmentNumber** and update the value to your EA enrollment number of MCA billing profile ID
-4. If using MCA, select **Queries** > **Scope** and change the value to `Billing Profile Id`
+1. Download and open the report in Power BI.
+2. Select **Transform data** in the toolbar.
+3. Select **Queries** > **BillingProfileOrEnrollmentNumber** and update the value to your EA enrollment number of MCA billing profile ID.
+4. If using MCA, select **Queries** > **Scope** and change the value to `Billing Profile Id`.
+5. Select **Close & Apply** in the toolbar and allow Power BI to refresh to see your data.
 
 ![Screenshot of the BillingProfileOrEnrollmentNumber parameter in Power BI Desktop](https://user-images.githubusercontent.com/399533/217879504-e874f66d-0ac5-49f1-a1fc-010be407679c.png)
 
