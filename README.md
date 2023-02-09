@@ -9,7 +9,11 @@ Reports:
 
 To connect to your account, see [Connect reports to your account](#connect-reports-to-your-account)
 
+<br>
+
 ---
+
+<br>
 
 ## Cost summary
 
@@ -37,7 +41,9 @@ The **Commitment discounts report** summarizes existing and potential savings fr
 [Download CommitmentDiscounts.pbix](https://github.com/flanakin/cost-management-powerbi/raw/main/CommitmentDiscounts.pbix) and [create an issue](https://github.com/flanakin/cost-management-powerbi/issues/new) to share feedback!
 
 <br>
+
 ---
+
 <br>
 
 ## Connect reports to your account
