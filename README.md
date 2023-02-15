@@ -24,6 +24,8 @@ The **Cost summary report** provides an overview of amortized costs with a few c
 - Build a chargeback report.
 - Summarize cost savings from negotiated and commitment-based discounts.
 
+![Screenshot of the summary page in the Cost summary report](https://user-images.githubusercontent.com/399533/216882658-45f026f1-c895-48ca-81e2-35765af8e29e.png)
+
 [Download CostSummary.pbix](https://github.com/flanakin/cost-management-powerbi/raw/main/CostSummary.pbix) and [create an issue](https://github.com/flanakin/cost-management-powerbi/issues/new) to share feedback!
 
 <br>
@@ -37,6 +39,8 @@ The **Commitment discounts report** summarizes existing and potential savings fr
 - Identify opportunity to save with more commitment-based discounts (aka coverage).
 - Determine which resources used commitment-based discounts (aka chargeback).
 - Summarize cost savings from commitment-based discounts.
+
+![Screenshot of the utilization page in the Commitment discounts report](https://user-images.githubusercontent.com/399533/216882916-bb7ecfa3-d092-4ae2-88e1-7a0425c14dca.png)
 
 [Download CommitmentDiscounts.pbix](https://github.com/flanakin/cost-management-powerbi/raw/main/CommitmentDiscounts.pbix) and [create an issue](https://github.com/flanakin/cost-management-powerbi/issues/new) to share feedback!
 
