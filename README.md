@@ -49,7 +49,7 @@ The **Commitment discounts report** summarizes existing and potential savings fr
 
 ## Cost Management template app
 
-> ?? _The Cost Management template app is designed to work for Enterprise Agreement billing accounts only and will not work for Microsoft Customer Agreement billing profiles._
+> ⚠️ _The Cost Management template app is designed to work for Enterprise Agreement billing accounts only and will not work for Microsoft Customer Agreement billing profiles._
 
 The **Cost Management template app** is the PBIX version of the official [Cost Management app](https://appsource.microsoft.com/product/power-bi/costmanagement.azurecostmanagementapp). Details are covered in [Cost Management documentation](https://learn.microsoft.com/azure/cost-management-billing/costs/analyze-cost-data-azure-cost-management-power-bi-template-app).
 
