@@ -4,6 +4,7 @@ These are very simple starter kits used to collect feedback. If you'd like to se
 
 Reports:
 
+- [FOCUS](#focus)
 - [Cost summary](#cost-summary)
 - [Commitment discounts](#commitment-discounts)
 - [Cost Management template app](#cost-management-template-app)
@@ -13,6 +14,18 @@ To connect to your account, see [Connect reports to your account](#connect-repor
 <br>
 
 ---
+
+<br>
+
+## FOCUS
+
+The **FOCUS report** provides an example of the [FinOps Open Cost and Usage Specification (FOCUS)](https://focus.finops.org) for Azure cost details. The report merges actual (billed) and amortized cost details into a single normalized dataset aligned to the FOCUS schema.
+
+This report comes with sample data. You can explore this dataset without connecting to your own account. I encourage anyone who works with cloud cost and usage data to check it out and share feedback about the schema to help improve it for everyone. To learn more about how to contribute to FOCUS, visit [focus.finops.org](https://focus.finops.org).
+
+![Screenshot of the raw data page in the FOCUS sample report](https://github.com/flanakin/cost-management-powerbi/assets/399533/fb48a5b0-5353-4d0c-aad1-458845f702ef)
+
+[Download FOCUS.pbix](https://github.com/flanakin/cost-management-powerbi/raw/main/FOCUS.pbix) and [create an issue](https://github.com/flanakin/cost-management-powerbi/issues/new) to share feedback!
 
 <br>
 
