@@ -23,6 +23,8 @@ The **FOCUS report** provides an example of the [FinOps Open Cost and Usage Spec
 
 This report comes with sample data. You can explore this dataset without connecting to your own account. I encourage anyone who works with cloud cost and usage data to check it out and share feedback about the schema to help improve it for everyone. To learn more about how to contribute to FOCUS, visit [focus.finops.org](https://focus.finops.org).
 
+> ℹ️ _This report works with both Enterprise Agreement billing accounts and Microsoft Customer Agreement billing profiles._
+
 ![Screenshot of the raw data page in the FOCUS sample report](https://github.com/flanakin/cost-management-powerbi/assets/399533/fb48a5b0-5353-4d0c-aad1-458845f702ef)
 
 [Download FOCUS.pbix](https://github.com/flanakin/cost-management-powerbi/raw/main/FOCUS.pbix) and [create an issue](https://github.com/flanakin/cost-management-powerbi/issues/new) to share feedback!
@@ -37,6 +39,8 @@ The **Cost summary report** provides an overview of amortized costs with a few c
 - Review changes in cost over time.
 - Build a chargeback report.
 - Summarize cost savings from negotiated and commitment-based discounts.
+
+> ℹ️ _This report works with Enterprise Agreement billing accounts only. If you have an MCA billing profile, try the [FOCUS report](#focus)._
 
 ![Screenshot of the summary page in the Cost summary report](https://user-images.githubusercontent.com/399533/216882658-45f026f1-c895-48ca-81e2-35765af8e29e.png)
 
@@ -53,6 +57,8 @@ The **Commitment discounts report** summarizes existing and potential savings fr
 - Identify opportunity to save with more commitment-based discounts (aka coverage).
 - Determine which resources used commitment-based discounts (aka chargeback).
 - Summarize cost savings from commitment-based discounts.
+
+> ℹ️ _This report works with Enterprise Agreement billing accounts only. If you have an MCA billing profile, try the [FOCUS report](#focus)._
 
 ![Screenshot of the utilization page in the Commitment discounts report](https://user-images.githubusercontent.com/399533/216882916-bb7ecfa3-d092-4ae2-88e1-7a0425c14dca.png)
 
