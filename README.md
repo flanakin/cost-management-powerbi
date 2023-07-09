@@ -1,13 +1,15 @@
 # Cost Management Power BI samples
 
-These are very simple starter kits used to collect feedback. If you'd like to see anything, please [submit an issue](https://github.com/flanakin/cost-management-powerbi/issues/new).
+The following Power BI reports are very simple starter kits to collect feedback. They all use the Cost Management Power BI connector, which is limited to only Enterprise Agreement billing accounts and Microsoft Customer Agreement billing profiles. If you'd like to see anything, please [submit an issue](https://github.com/flanakin/cost-management-powerbi/issues/new).
+
+If you need a solution that supports other scopes, try [FinOps hubs](https://aka.ms/finops/hubs).
 
 Reports:
 
 - [FOCUS](#focus)
 - [Cost summary](#cost-summary)
 - [Commitment discounts](#commitment-discounts)
-- [Cost Management template app](#cost-management-template-app)
+- [Cost Management template app](#cost-management-template-app) (Enterprise Agreement only)
 
 To connect to your account, see [Connect reports to your account](#connect-reports-to-your-account)
 
@@ -19,11 +21,9 @@ To connect to your account, see [Connect reports to your account](#connect-repor
 
 ## FOCUS
 
-The **FOCUS report** provides an example of the [FinOps Open Cost and Usage Specification (FOCUS)](https://focus.finops.org) for Azure cost details. The report merges actual (billed) and amortized cost details into a single normalized dataset aligned to the FOCUS schema.
+The **FOCUS report** provides an example of the [FinOps Open Cost and Usage Specification (FOCUS)](https://focus.finops.org) for Azure cost details. The report merges billed (actual) and amortized cost details into a single normalized dataset aligned to the FOCUS schema.
 
-This report comes with sample data. You can explore this dataset without connecting to your own account. I encourage anyone who works with cloud cost and usage data to check it out and share feedback about the schema to help improve it for everyone. To learn more about how to contribute to FOCUS, visit [focus.finops.org](https://focus.finops.org).
-
-> ℹ️ _This report works with both Enterprise Agreement billing accounts and Microsoft Customer Agreement billing profiles._
+This report comes with sample data to demonstrate the FOCUS schema and collect feedback. You can explore this dataset without connecting to your own account. I encourage anyone who works with cloud cost and usage data to check it out and share feedback about the schema to help improve it for everyone. To learn more about how to contribute to FOCUS, visit [focus.finops.org](https://focus.finops.org).
 
 ![Screenshot of the raw data page in the FOCUS sample report](https://github.com/flanakin/cost-management-powerbi/assets/399533/fb48a5b0-5353-4d0c-aad1-458845f702ef)
 
@@ -39,8 +39,6 @@ The **Cost summary report** provides an overview of amortized costs with a few c
 - Review changes in cost over time.
 - Build a chargeback report.
 - Summarize cost savings from negotiated and commitment-based discounts.
-
-> ℹ️ _This report works with Enterprise Agreement billing accounts only. If you have an MCA billing profile, try the [FOCUS report](#focus)._
 
 ![Screenshot of the summary page in the Cost summary report](https://user-images.githubusercontent.com/399533/216882658-45f026f1-c895-48ca-81e2-35765af8e29e.png)
 
@@ -58,8 +56,6 @@ The **Commitment discounts report** summarizes existing and potential savings fr
 - Determine which resources used commitment-based discounts (aka chargeback).
 - Summarize cost savings from commitment-based discounts.
 
-> ℹ️ _This report works with Enterprise Agreement billing accounts only. If you have an MCA billing profile, try the [FOCUS report](#focus)._
-
 ![Screenshot of the utilization page in the Commitment discounts report](https://user-images.githubusercontent.com/399533/216882916-bb7ecfa3-d092-4ae2-88e1-7a0425c14dca.png)
 
 [Download CommitmentDiscounts.pbix](https://github.com/flanakin/cost-management-powerbi/raw/main/CommitmentDiscounts.pbix) and [create an issue](https://github.com/flanakin/cost-management-powerbi/issues/new) to share feedback!
@@ -68,7 +64,7 @@ The **Commitment discounts report** summarizes existing and potential savings fr
 
 ## Cost Management template app
 
-> ⚠️ _The Cost Management template app is designed to work for Enterprise Agreement billing accounts only and will not work for Microsoft Customer Agreement billing profiles._
+> ⚠️ _The Cost Management template app is designed to work for **Enterprise Agreement billing accounts only** and will **not** work for Microsoft Customer Agreement billing profiles._
 
 The **Cost Management template app** is the PBIX version of the official [Cost Management app](https://appsource.microsoft.com/product/power-bi/costmanagement.azurecostmanagementapp). Details are covered in [Cost Management documentation](https://learn.microsoft.com/azure/cost-management-billing/costs/analyze-cost-data-azure-cost-management-power-bi-template-app).
 
@@ -86,10 +82,10 @@ Please keep in mind that I am not maintaining this. I am simply making it availa
 
 1. Download and open the report in Power BI.
 2. Select **Transform data** in the toolbar.
-3. Select **Queries** > **BillingProfileOrEnrollmentNumber** and update the value to your EA enrollment number of MCA billing profile ID.
-4. If using MCA, select **Queries** > **Scope** and change the value to `Billing Profile Id`.
+3. Select **Queries** > **Billing Account ID** and update the value to your EA enrollment number of MCA billing account ID.
+4. If connecting to an MCA billing profile, select **Queries** > **Billing Profile ID** and update the value to your MCA billing profile ID.
 5. Select **Close & Apply** in the toolbar and allow Power BI to refresh to see your data.
 
-![Screenshot of the BillingProfileOrEnrollmentNumber parameter in Power BI Desktop](https://user-images.githubusercontent.com/399533/217879504-e874f66d-0ac5-49f1-a1fc-010be407679c.png)
+![Screenshot of the Billing Account ID parameter in Power BI Desktop](https://github.com/flanakin/cost-management-powerbi/assets/399533/9a57eb28-2f5b-467f-b81a-b57ed71a2704)
 
 For more details, see [Create to the Azure Cost Management connector in Power BI Desktop](https://learn.microsoft.com/power-bi/connect-data/desktop-connect-azure-cost-management).
