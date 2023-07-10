@@ -2,8 +2,6 @@
 
 The following Power BI reports are very simple starter kits to collect feedback. They all use the Cost Management Power BI connector, which is limited to only Enterprise Agreement billing accounts and Microsoft Customer Agreement billing profiles. If you'd like to see anything, please [submit an issue](https://github.com/flanakin/cost-management-powerbi/issues/new).
 
-If you need a solution that supports other scopes, try [FinOps hubs](https://aka.ms/finops/hubs).
-
 Reports:
 
 - [FOCUS](#focus)
@@ -12,6 +10,17 @@ Reports:
 - [Cost Management template app](#cost-management-template-app) (Enterprise Agreement only)
 
 To connect to your account, see [Connect reports to your account](#connect-reports-to-your-account)
+
+<br>
+
+> ℹ️ _If you find these reports useful, you might also be interested in [FinOps hubs](https://aka.ms/finops/hubs). FinOps hubs enable you to:_
+> 
+> - _Connect Power BI to subscriptions, resource groups, and other scopes._
+> - _Connect Power BI to Azure Government and Microsoft Online Services Aagreement accounts._
+> - _Report on multiple subscriptions, resource groups, or billing accounts._
+> - _Coming soon: Ingest data from subscriptions in multiple tenants into a single storage account._
+> - _Coming soon: Normalize cost data across account types._
+> - _Coming soon: Ingest data into Azure Data Explorer._
 
 <br>
 
