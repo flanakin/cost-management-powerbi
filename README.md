@@ -91,10 +91,13 @@ Please keep in mind that I am not maintaining this. I am simply making it availa
 
 1. Download and open the report in Power BI.
 2. Select **Transform data** in the toolbar.
-3. Select **Queries** > **Billing Account ID** and update the value to your EA enrollment number of MCA billing account ID.
-4. If connecting to an MCA billing profile, select **Queries** > **Billing Profile ID** and update the value to your MCA billing profile ID.
-5. Select **Close & Apply** in the toolbar and allow Power BI to refresh to see your data.
+3. Select **Queries** > **Setup** > **Start here** and follow the instructions.
+   - If connecting an EA account, set the Billing Account ID to your EA enrollment number.
+   - If connecting an MCA account, set the Billing Account ID to your MCA billing account ID and optionally set the Billing Profile ID.
+   - Billing profile is optional for cost data, but required for MCA reservation recommendations.
+   - Leverage the troubleshooting messages to ensure everything is setup correctly.
+4. Select **Close & Apply** in the toolbar and allow Power BI to refresh to see your data.
 
-![Screenshot of the Billing Account ID parameter in Power BI Desktop](https://github.com/flanakin/cost-management-powerbi/assets/399533/9a57eb28-2f5b-467f-b81a-b57ed71a2704)
+![Screenshot of the Billing Account ID parameter in Power BI Desktop](https://github.com/flanakin/cost-management-powerbi/assets/399533/766f2a70-abcb-434b-8c1b-b7365afcd68b)
 
 For more details, see [Create to the Azure Cost Management connector in Power BI Desktop](https://learn.microsoft.com/power-bi/connect-data/desktop-connect-azure-cost-management).
